@@ -8,7 +8,7 @@ export async function showBookmark(container) {
 
   if (stories.length === 0) {
     container.innerHTML = `
-      <h2>📚 Cerita Tersimpan</h2>
+      <h2>Cerita Tersimpan</h2>
       <p>Belum ada cerita yang disimpan.</p>
     `;
     return;
